@@ -1,0 +1,55 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+print("Hello world")
+x=5
+print (type(x))
+s="123"
+print (type(s))
+#print (x+s) #hiba
+print (type(s) is str)
+print (type(s) is int)
+
+a1=120
+print (type(a1)) #int
+
+a2=12.0
+print (type(a2)) #float
+
+a5= str(1)
+print (type(a5))
+print (a5)
+
+print(a1+int(a5)) #számmá alakul az a5, csak ebben a parancsban
+print(type(a5)) #egyébként marad string
+
+s1='11'
+s2='12'
+print (type (s1+s2))
+print (type (int (s1+s2))) #típuskonverzió
+
+print ("alma"+" "+"körte") #stringek összefüzése
+print("alma"*10)
+
+print('a','b', 'c','da\'sda"as"sd--e')
+print("a","b", "c", "deas'aaa'asd")
+print("a","b", "c", "de", sep="")
+print("a","b", "c", "de", sep="***")
+print("x\ny")
+print("ez kerüljön" , end=" ")
+print("egy sorba nosika.")
+
+print ("range(6):   \t", end="")
+# 0 1 2 3 4 5
+for x in range(6):
+    print("%4d" % x, end="")
+    
+print("\nrange(3, 9):  \t", end="")
+# 3 4 5 6 7 8
+for x range(3,9):
+    print("%4d" % x, end="")
+    
+print ("\nrange(3,14,2):  \t", end="")
+# 3 5 7 9 11 13
+for x in range(3, 14, 2):
+    print("%4d" % x, end="")
+print("\n")
