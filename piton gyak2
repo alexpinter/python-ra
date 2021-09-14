@@ -1,0 +1,31 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+print("Hello world")
+x=5
+print (type(x))
+s="123"
+print (type(s))
+#print (x+s) #hiba
+print (type(s) is str)
+print (type(s) is int)
+
+a1=120
+print (type(a1)) #int
+
+a2=12.0
+print (type(a2)) #float
+
+a5= str(1)
+print (type(a5))
+print (a5)
+
+print(a1+int(a5)) #számmá alakul az a5, csak ebben a parancsban
+print(type(a5)) #egyébként marad string
+
+s1='11'
+s2='12'
+print (type (s1+s2))
+print (type (int (s1+s2))) #típuskonverzió
+
+print ("alma"+" "+"körte") #stringek összefüzése
+print("alma"*10) 
