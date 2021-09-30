@@ -1,0 +1,34 @@
+a=int(input("add mg az lő zámot"))
+b=int(input("ad meg a máodik számot"))
+opcio=int(input("adja meg az elvégzendő művelet számát: özeadás 1, kivonás 2, szorzás 3, oztás 4,egyéb kilépés! "))
+
+match opcio:
+    case "1":
+         print("a két szám összege: %d" %(a+b))
+    case "2":
+         print("a két szám külömbsége: %d" %(a-b))
+    case "3":
+         print("a két szám szorzata: %d" %(a*b))
+    case "4":
+         print("a két szám hányadosa: %.2f" %(a/b))
+    case_:
+        print("rossz input! kilép!")
+        
+
+a=int(input("add mg az lő zámot"))
+b=int(input("ad meg a máodik számot"))
+opcio=int(input("adja meg az elvégzendő művelet számát: özeadás 1, kivonás 2, szorzás 3, oztás 4,egyéb kilépés! "))
+
+while opcio<1 or opcio>4:
+    print("roz input! kilép!")
+    exit()
+    if opcio==1:
+        print("a két szám összege: %d" %(a+b))
+    elif opcio==2:
+        print("a két szám külömbsége: %d" %(a-b))
+    elif opcio==3:
+        print("a két szám szorzata: %d" %(a*b))
+    elif opcio==4:
+        print("a két szám hányadosa: %.2f" %(a/b))
+    else
+    
