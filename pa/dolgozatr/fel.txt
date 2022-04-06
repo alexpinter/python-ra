@@ -1,0 +1,17 @@
+feladat:
+Készíts egy programot, amely létrehoz egy nyilvántartást. A táblázatot írd ki egy csv fájlba.
+A program kérje be a felhasználótól a keresztnevet, valamint hogy heti hány órát dolgozott. 
+Ez táblázatos formában írd ki a fájlba. A táblázat harmadik oszlopában pedig a ledolgozott óraszámok százalékos 
+aránya kerüljön, amennyiben heti 40 óra számít 100%-nak. Használj függvényeket a megvalósítás során! 
+Kérj be legalább 5 adatot!
+ 
+feladat:
+Adott egy szavak.txt nevű fájl, amely szavakat tartalmaz. 
+Keresd meg mindegyik szót, amelynek a középső betűje mássalhangzó és írasd ki a képernyőre. 
+Vedd figyelembe a sor végi sortöréseket is. A páros számú szavakat hagyd figyelmen kivűl! 
+Használj függvényeket a megvalósítás során!
+
+feladat:
+Adott az auto.txt fájl. Keresd meg mindazokat a mondatokat amelyekben szerepel a “méter” szó és írasd ki őket a képernyőre. 
+Használj függvényeket a megvalósítás során!
+
